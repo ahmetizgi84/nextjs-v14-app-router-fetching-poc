@@ -4,14 +4,15 @@ import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { productArraySchema, productSchema } from "../types/product";
 
-export async function revalidateContentWithPath() {
-  revalidatePath("/isr");
-  redirect("/isr");
+export async function revalidateContentWithPath(path: string) {
+  // revalidatePath("/isr");
+  revalidatePath(path, "page");
+  redirect(path);
 }
 
-export async function revalidateContentWithTag() {
+export async function revalidateContentWithTag(path: string) {
   revalidateTag("products");
-  redirect("/isr");
+  redirect(path);
 }
 
 ////////////////////////////////////////////////////////////

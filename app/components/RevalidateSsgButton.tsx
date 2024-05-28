@@ -12,10 +12,9 @@ const RevalidateSsgButton: React.FC<Props> = ({ text = "Revalidate" }) => {
     // setIsLoading(true);
     const response = await fetch(`/api/product`).then((res) => res.json());
 
-    console.log("response: ", response);
     window.location.reload();
     if (response.revalidated) {
-      alert("Revalidated..");
+      console.log("data revalidated!");
     }
     // setTimeout(() => {
     //   setIsLoading(false);

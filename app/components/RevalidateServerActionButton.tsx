@@ -14,8 +14,8 @@ const RevalidateServerActionButton: React.FC<Props> = ({
   text = "Revalidate with Server Action",
 }) => {
   const handleRevalidate = async () => {
-    //  revalidateContentWithPath();
-    revalidateContentWithTag();
+    //  revalidateContentWithPath("/isr-on-demand");
+    revalidateContentWithTag("/isr-on-demand");
   };
 
   return (
