@@ -18,7 +18,7 @@ export default async function ISROnDemand() {
           subtitle="This page does the fetch at the time of build and the content
                will be updated every button click. It is necessary to specify in the fetch tags to revalidate."
           codeExample="const res = await fetch(url, { next: { tags: ['products'] } } )"
-          urlExampleGitHub="https://github.com/larturi/nextjs-v14-app-router-fetching-isr-poc/blob/main/app/(pages)/isr/page.tsx#L5-L16"
+          urlExampleGitHub="https://github.com/ahmetizgi84/nextjs-v14-app-router-fetching-poc/blob/development/app/(pages)/isr-on-demand/page.tsx#L7-L11"
           underlineColor="border-red-500 border-b-4"
           underlineWidth="w-[130px] md:w-[280px]"
         />

@@ -16,7 +16,7 @@ export default async function ServerSide() {
           subtitle="This page does the fetch for each page request. Does not apply any
                type of cache, recommended when an instant update is needed. It is necessary to specify in the fetch."
           codeExample='const res = await fetch(url, { cache: "no-store" } )'
-          urlExampleGitHub="https://github.com/larturi/nextjs-v14-app-router-fetching-isr-poc/blob/main/app/(pages)/server-side/page.tsx#L4-L15"
+          urlExampleGitHub="https://github.com/ahmetizgi84/nextjs-v14-app-router-fetching-poc/blob/development/app/(pages)/server-side/page.tsx#L6-L9"
           underlineColor="border-green-600 border-b-4"
           underlineWidth="w-[190px] md:w-[240px]"
         />

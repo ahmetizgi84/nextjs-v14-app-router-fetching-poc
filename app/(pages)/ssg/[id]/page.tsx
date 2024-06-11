@@ -39,7 +39,7 @@ export default async function SSG({ params }: Props) {
           subtitle="This page does the fetch at the time of build and generate static pages the content
                will be updated when button click."
           codeExample="const res = await fetch(url,  { next: { tags: ['product'] } } )"
-          urlExampleGitHub="https://github.com/larturi/nextjs-v14-app-router-fetching-isr-poc/blob/main/app/(pages)/isr/page.tsx#L5-L16"
+          urlExampleGitHub="https://github.com/ahmetizgi84/nextjs-v14-app-router-fetching-poc/blob/development/app/(pages)/ssg/%5Bid%5D/page.tsx#L26-L30"
           underlineColor="border-b-4 border-white"
           underlineWidth="w-[130px] md:w-[280px]"
         />
