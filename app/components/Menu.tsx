@@ -15,6 +15,13 @@ const Menu = () => {
       <Button url="/isr-time-based" text="ISR - 1" />
       <Button url="/isr-on-demand" text="ISR - 2" />
       <Button url="/ssg" text="SSG" />
+      {/* <Button url="/zod" text="zod" /> */}
+      {/* <Button url="/io-ts" text="io-ts" /> */}
+      <Button url="/cache" text="Cache Mechanism" />
+      <Button
+        url="/users/50"
+        text="server action & revalidate & useFormState & useFormStatus"
+      />
       {/* <Button url="/isr-and-ssg/1" text="SSG (generateStaticParams & revalidateTag)" /> */}
       <Button
         url="/"
